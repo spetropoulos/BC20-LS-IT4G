@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC20-LS-INT",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080",
+
+            "serverInstance": "BC20-LS-INT",
+            "port": 20014,
+
+            "authentication": "Windows",
+
+            "startupObjectId": 50001,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync",
+            "tenant": "default"
+        },        
+        {
+            "name": "BC19-INT-HO",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080",
+
+            "serverInstance": "BC19-INT-HO",
+            "port": 19914,
+
+            "authentication": "Windows",
+
+            "startupObjectId": 50001,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync",
+            "tenant": "default"
+        },
+        {
+            "name": "BC19-INT-PANOS",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://panos-pc:8080",
+
+            "serverInstance": "BC194",
+            "port": 1934,
+
+            "authentication": "Windows",
+
+            "startupObjectId": 60106,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync",
+            "tenant": "default"
+        }
+    ]
+} 

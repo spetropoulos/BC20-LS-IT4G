@@ -1,0 +1,38 @@
+{
+    "id": "0647fe0e-a7da-478f-a972-599707d1a7ee",
+    "name": "IT4G-LS19",
+    "publisher": "IT4G",
+    "version": "20.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "platform": "20.0.0.0",
+    "application": "20.0.0.0",
+    "runtime": "8.1",
+    "features": ["TranslationFile","GenerateCaptions"],
+    "target": "OnPrem",
+   "resourceExposurePolicy":  {
+                                   "allowDebugging":  true,
+                                   "allowDownloadingSource":  true,
+                                   "includeSourceInSymbolFile":  true
+                               },
+    "propagateDependencies":  true,
+    "dependencies": [
+              {
+                  "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+                  "publisher": "LS Retail",
+                  "name": "LS Central",
+                  "version": "20.0.0.0"
+                }
+              ],
+    "screenshots": [],
+    "idRanges": [
+      {        "from": 50000,"to": 60200      },
+      {        "from":99999,"to": 99999      }
+    ],
+    "contextSensitiveHelpUrl": "https://ALProject3.com/help/"
+  } 
